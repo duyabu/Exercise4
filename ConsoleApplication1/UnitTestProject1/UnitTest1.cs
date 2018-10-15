@@ -56,10 +56,32 @@ namespace UnitTestProject1
         [TestMethod]
         public void TestSquare()
         {
+            int result__1 = Program.Square(-1);
+            int result_0 = Program.Square(0);
+            int result_1 = Program.Square(1);
+            int result_2 = Program.Square(2);
+            int result_10 = Program.Square(10);
+
+            Assert.AreEqual(result__1, 1);
+            Assert.AreEqual(result_0, 0);
+            Assert.AreEqual(result_1, 1);
+            Assert.AreEqual(result_2, 4);
+            Assert.AreEqual(result_10, 100);
         }
         [TestMethod]
         public void TestCube()
         {
+            int result__1 = Program.Square(-1);
+            int result_0 = Program.Square(0);
+            int result_1 = Program.Square(1);
+            int result_2 = Program.Square(2);
+            int result_10 = Program.Square(10);
+
+            Assert.AreEqual(result__1, -1);
+            Assert.AreEqual(result_0, 0);
+            Assert.AreEqual(result_1, 1);
+            Assert.AreEqual(result_2, 8);
+            Assert.AreEqual(result_10, 1000);
         }
         [TestMethod]
         public void TestPow()
