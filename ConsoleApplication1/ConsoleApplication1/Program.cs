@@ -44,7 +44,7 @@ namespace ConsoleApplication1
         {
             return 0;
         }
-        public static int Fractorial(int n)
+        public static int Factorial(int n)
         {
             return 0;
         }
